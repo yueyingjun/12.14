@@ -1,6 +1,1 @@
 https://gtuooa.github.io/haha/readapp/index.html
-https://gtuooa.github.io/haha/readapp/list.html
-https://gtuooa.github.io/haha/readapp/show.html
-https://gtuooa.github.io/haha/readapp/guide.html
-https://gtuooa.github.io/haha/readapp/login.html
-https://gtuooa.github.io/haha/readapp/validate.html
