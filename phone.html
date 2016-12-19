@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="x5-orientation" content="portrait | landscape" /> 
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="font/iconfont.css" />
+    <script src="js/fun.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+    
+</head>
+<body>
+	<div class="box">
+		<header>
+			<a href="login.html">
+				<div class="left iconfont icon-xiangzuojiantou"></div>
+			</a>
+			手机号快捷登录
+		</header>
+		<div class="sing">
+			<div class="phone">
+				<span>手机号</span>
+				<input type="text" placeholder="请输入手机号" />
+			</div>
+			<div class="phone">
+				<span>验证码</span>
+				<input type="text" placeholder="请输入验证码" />
+				<button>获取验证码</button>
+				
+			</div>
+			
+			
+		</div>
+		<a href="index.html"><input type="button"  value="登录"/></a>
+		
+	</div>
+	
+</body>
+</html>
