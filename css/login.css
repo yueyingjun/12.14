@@ -1,0 +1,123 @@
+body,html{
+	margin: 0;padding: 0;
+	width: 100%;height: 100%;
+	font-family: Helvetica;
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a img{
+	display: block;
+}
+.box{
+	width: 100%;height: 100%;
+}
+.top{
+	width: 100%;height: 3.44rem;
+	background: url("../img/login_bg.png");
+	position: relative;
+}
+.con{
+	width: 2.68rem;height: 1.3rem;
+	background: url("../img/logo.png") ;
+	background-size: cover;
+	position: absolute;
+	left: 0;right: 0;top: 0;bottom: 0;
+	margin: auto;
+}
+.top .right{
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+}
+.sing{
+	width: 100%;height: auto;
+	margin-top: 0.3rem;
+}
+.sing .phone{
+	width: 100%;height: 1rem;background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.sing .phone span{
+	display: block;
+	width: auto;height: 1rem;
+	font-size: 0.3rem;
+	line-height: 1rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.sing .phone input{
+	float: left;
+	height: 0.9rem;
+	border: 0;
+	margin-left: 0.2rem;
+	outline: none;
+}
+.phone button{
+	width: 2rem;height: 1rem;
+	background: #fff;
+	border:0;
+	float: right;
+	border-left:1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.phone a{
+	display: block;
+	float: right;
+	width: 1rem;height: 1rem;
+	background: url(../img/hidepassword.png) center no-repeat;
+	background-size: 50%;
+}
+.login{
+	display: block;
+	width: 90%;height:0.8rem;
+	margin: 0.5rem auto;
+	border: 0;
+	color:#fff;
+	background: #DE3D96;
+	border-radius: 5px;
+	outline: none;
+}
+.forget{
+	display: block;
+	width: 100%;height: 0.3rem;
+	font-size: 0.3rem;
+	color: #ccc;
+	padding: 0 0.3rem;
+	text-align: right;
+	line-height: 0.3rem;
+}
+footer{
+	margin-top: 0.3rem;
+	width: 100%;height: 2.4rem;border-top: 1px solid #ccc;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+footer legend{
+	background: #fff;
+	width: 0.5rem;height: 0.5rem;font-size: 0.2rem;
+	line-height: 0.5rem;text-align: center;
+	color: #ccc;
+	margin:-0.25rem auto;
+}
+footer .phone{
+	margin-top:0.5rem ;
+	width: 3rem;height: 0.6rem;
+	border: 0;
+	border: 2px solid #DE3D96;
+	border-radius: 5px;
+	background: #fff;
+	color:#DE3D96;
+	outline: none;
+}
+footer .sing{
+	width: 3rem;
+	background: #fff;
+	border: 0;
+	outline: none;
+}
